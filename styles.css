@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'Inter';
+    src: url(assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+*   {
+    font-family: Inter;
+}
+
+body    {
+    display: flex;
+    height: 100vh;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 8%);
+}
+
+section {
+    border-radius: 0.67rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: hsl(0, 0%, 12%);
+    text-align: center;
+    padding-top: 2.5rem;
+    padding-bottom: 0.5rem;
+    padding-inline: 2.5rem;
+    margin-inline: 2rem;
+}
+
+img {
+    border-radius: 100%;
+    width: 5.5rem;
+    margin-bottom: 0.25rem;
+}
+
+h1  {
+    color: white;
+    font-weight: 500;
+    margin-bottom: 0.6rem;
+}
+
+h3  {
+    color: hsl(75, 94%, 57%);
+    font-size: 0.875rem;
+    font-weight: 575;
+    margin-top: 0;
+}
+
+p   {
+    color: white;
+    font-weight: 250;
+    font-size: 0.9rem;
+}
+
+ul  {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 0.75rem;
+    padding: 0;
+    list-style-type: none;
+}
+
+li  {
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 600;
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    padding-block: 0.9rem;
+    padding-inline: 6rem;
+}
+
+li:hover    {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 12%);
+    cursor: pointer;
+}
